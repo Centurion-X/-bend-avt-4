@@ -1,0 +1,18 @@
+.menu
+{
+    display: flex;
+    gap: 5rem;
+    justify-content: space-between;
+}
+
+.menu-link
+{
+    color: var(--main-color);
+    text-decoration: none;
+}
+
+.menu-link:hover
+{
+    color: var(--main-color);
+    text-decoration: underline;
+}

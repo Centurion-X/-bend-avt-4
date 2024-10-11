@@ -1,0 +1,43 @@
+#root
+{
+  margin: 0 auto;
+  text-align: center;
+  user-select: none;
+  width: 100%;
+}
+
+a
+{
+  color: blue;
+  font-weight: 500;
+  text-decoration: inherit;
+}
+
+a:hover
+{
+  color: blueviolet;
+}
+
+button
+{
+  background-color: whitesmoke;
+  border: 1px solid gray; border-radius: 0.5rem;
+  cursor: pointer;
+  margin: 0.5rem auto; padding: 0.5rem;
+}
+
+button:hover
+{
+  background-color: greenyellow;
+}
+
+h1
+{
+  font-size: 3.0rem;
+  line-height: 1.0;
+}
+
+img
+{
+  height: auto; max-width: 100%;
+}

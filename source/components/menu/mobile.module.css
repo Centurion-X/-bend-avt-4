@@ -1,0 +1,16 @@
+.menu
+{
+    display: flex; flex-direction: column;
+}
+
+.mobile
+{
+    border: 2px solid var(--main-color);
+    height: 0.25rem; width: 1.5rem;
+    margin: 0.25rem;    
+}
+
+.mobile:hover
+{
+    border-color: yellowgreen;
+}

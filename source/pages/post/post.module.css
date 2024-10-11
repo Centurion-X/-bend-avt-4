@@ -1,0 +1,26 @@
+.content > article
+{
+    margin: 1rem auto;
+}
+
+.content > article > h2
+{
+    margin-bottom: 0.5rem;
+}
+
+.content > article > hr
+{
+    margin: 0 auto;
+    width: 50%;;
+}
+
+.content > article > img
+{
+    height: auto; max-width: 75%;
+}
+
+.content > article > p
+{
+    padding: 0.5rem;
+    text-align: justify;
+}

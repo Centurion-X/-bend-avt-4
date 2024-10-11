@@ -1,0 +1,19 @@
+.main
+{
+    align-items: center; justify-content: space-evenly;
+    display: flex;
+}
+
+@media screen and (orientation: landscape)
+{
+    .main {flex-direction: row}
+    .main > div {order: 1}
+    .main > img {order: 2}
+}
+
+@media screen and (orientation: portrait), screen and (width <= 640px)
+{
+    .main {flex-direction: column}
+    .main > div {order: 2}
+    .main > img {order: 1}
+}

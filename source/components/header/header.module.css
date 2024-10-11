@@ -1,0 +1,18 @@
+.header
+{
+    align-items: center; 
+    border-bottom: 1px solid var(--main-color);
+    display: flex;
+    height: 7.5vh;
+    padding: 1rem 0.5rem;
+}
+
+@media screen and (orientation: landscape)
+{
+    .header {justify-content: space-evenly}
+}
+
+@media screen and (orientation: portrait), screen and (width <= 640px)
+{
+    .header {justify-content: space-between}
+}

@@ -1,0 +1,15 @@
+.content
+{
+    display: flex; flex-direction: column;
+}
+
+.link
+{
+    margin: 0.25rem 0;
+    text-decoration: none;
+}
+
+.link:hover
+{
+    text-decoration: underline;
+}
