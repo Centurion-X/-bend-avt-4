@@ -13,7 +13,7 @@ export default function Post()
 
     useEffect(() =>
     {
-        fetch(`https://centurion-x.github.io/bend-avt-4/public/article_${id}.html`, {headers: {"Content-Type": "text/html"}})
+        fetch(`https://monakhoff.github.io/bend-avt-4/public/article_${id}.html`, {headers: {"Content-Type": "text/html"}})
              .then(response => response.text())
              .then(text => Parser(text))
              .then(post => setPost(post));
