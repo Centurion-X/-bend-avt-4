@@ -11,7 +11,7 @@ export default function Blog()
 
     useEffect(() =>
     {
-        fetch("https://centurion-x.github.io/bend-avt-4/public/articles.json", {headers: {"Content-Type": "application/json"}})
+        fetch("https://monakhoff.github.io/bend-avt-4/public/articles.json", {headers: {"Content-Type": "application/json"}})
              .then(response => response.json())
              .then(json => setPosts(json));
     }, []);
